@@ -45,4 +45,8 @@
         background-position: center;
         background-image: url(../img/batmanOFF.jpg);
     }
+
+    .batman-activo{
+        background-image: url(../img/batmanON.gif);
+    }
 }
