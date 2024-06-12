@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.batman{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    transform: translate(-50%,-50%);
+    min-width: 700px;
+    min-height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/batmanOFF.jpg);
+}
+
+.batman-activo{
+    background-image: url(../img/batmanON.gif);
+}
+
+.bati_boton{
+    position: absolute;
+    top: 53.5%;
+    left: 42%;
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width:430px){
+    .batman{
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        border-radius: 50%;
+        transform: translate(-50%,-50%);
+        min-width: 500px;
+        min-height: 300px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../img/batmanOFF.jpg);
+    }
+}
